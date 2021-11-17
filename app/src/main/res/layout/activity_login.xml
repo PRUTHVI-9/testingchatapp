@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SignIn"
+        android:textColor="#2196F3"
+        android:textSize="70dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/et_Mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:hint="Mobile no / Email address" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="Tyoe your password" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:background="#2196F3"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textStyle="bold">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_forget_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Forget password ?"
+        android:textColor="#2196F3"
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Or"
+        android:textColor="#2196F3"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btn_create_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:background="#13E428"
+        android:text="Create new account"
+        android:textSize="20dp"
+        android:textStyle="bold">
+    </Button>
+
+
+
+
+
+
+</LinearLayout>
